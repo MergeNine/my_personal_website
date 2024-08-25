@@ -1,10 +1,13 @@
 module.exports = {
-  content: ["./src/**/*.{html,js,jsx,ts,tsx}",
-  ],
+  content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        root_light: "rgb(196, 208, 199)",
+        root_dark: "rgb(35, 44, 51)",
+      },
+    },
   },
-  tailwindcss: {},
-  autoprefixer: {},
-}
-
+  plugins: [],
+  darkMode: "class",
+};
