@@ -14,12 +14,13 @@ function App() {
         document.body.className = darkMode ? 'dark' : '';
     }, [darkMode])
 
-    return (<div className={`h-screen bg-root_light dark:bg-root_dark  font-moderustic text-lg`}>
+    return (<div className={`h-screen bg-primary_light dark:bg-primary_dark  font-moderustic text-lg`}>
         <button className="absolute w-16 h-16 bottom-16 right-16 bg-neutral-300 text-black
             dark:bg-black rounded-full dark:text-white"
                 onClick={toggleDarkMode}
         >{darkMode ? "Dark" : "Light"}
         </button>
+
         <HeaderFooter/>
     </div>)
 }
