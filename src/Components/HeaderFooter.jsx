@@ -2,7 +2,10 @@ const HeaderFooter = () => {
 
     return (
 
-        <header className="text-black dark:text-white p-6  lg:max-w-[1024px] lg:min-w-[768px] mx-auto">
+        <header className="  absolute left-0 top-0 right-0 bottom-0 text-black dark:text-white p-6 h-[50vh]
+        lg:max-w-[1024px]
+         lg:min-w-[768px] mx-auto">
+
 
             <nav className="flex justify-between items-center py-2">
                 <button className="text-primary_text_light hover:text-primary_hover_light
@@ -40,6 +43,13 @@ const HeaderFooter = () => {
                 </ul>
             </nav>
 
+
+
+
+
+            <footer>
+
+            </footer>
         </header>)
 }
 
