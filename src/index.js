@@ -1,13 +1,18 @@
 import ReactDOM from 'react-dom/client';
 import './styles.css';
 import WaveUnderlay from "./Components/WaveUnderlay.jsx";
-import HeaderFooter from "./Components/HeaderFooter.jsx";
+import Header from "./Components/Header.jsx";
+import Footer from "./Components/Footer.jsx";
 
 
 function App() {
-    return (<div className={`relative h-screen bg-primary_light dark:bg-primary_dark font-moderustic text-lg`}>
+    return (<div className={`relative h-screen bg-primary_light dark:bg-primary_dark 
+    font-moderustic text-lg`}>
+
         <WaveUnderlay/>
-        <HeaderFooter/>
+        <Header/>
+        <Footer/>
+
     </div>)
 }
 

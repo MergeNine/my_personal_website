@@ -11,7 +11,6 @@ const DarkLightButton = () => {
         document.body.className = darkMode ? 'dark' : '';
     }, [darkMode]);
 
-
     return (<button className="text-primary_text_light hover:text-primary_hover_light
                 dark:hover:text-primary_hover_dark dark:text-primary_text_dark "
                     onClick={toggleDarkMode}
