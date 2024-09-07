@@ -1,19 +1,19 @@
-import {useEffect, useState} from "react";
+// import {useEffect, useState} from "react";
 
 
 const WaveUnderlay = () => {
 
-    const [waveUnderlayState, setWaveUnderlay] = useState(true)
-    const toggleWaveUnderlay = () => {
-        setWaveUnderlay(!waveUnderlayState)
-    };
-
-    useEffect(() => {
-        const waveElement = document.getElementById("waveOverlay")
-        if (waveElement) {
-            waveElement.setAttribute("hidden", waveUnderlayState.toString())
-        }
-    }, [waveUnderlayState]);
+    // const [waveUnderlayState, setWaveUnderlay] = useState(true)
+    // const toggleWaveUnderlay = () => {
+    //     setWaveUnderlay(!waveUnderlayState)
+    // };
+    //
+    // useEffect(() => {
+    //     const waveElement = document.getElementById("waveOverlay")
+    //     if (waveElement) {
+    //         waveElement.setAttribute("hidden", waveUnderlayState.toString())
+    //     }
+    // }, [waveUnderlayState]);
 
 
     return (<div id="waveOverlay" className="absolute border flex flex-col h-screen w-screen ">
