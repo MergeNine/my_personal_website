@@ -3,7 +3,7 @@ import kotlinSvg from '../Assets/Svg/Kotlin.svg';
 import javaSvg from '../Assets/Svg/Java.svg';
 import jsSvg from '../Assets/Svg/Js.svg';
 
-const HoverSvg = ({ id }) => {
+const HoverTopSvg = ({ id }) => {
     switch (id) {
         case 1:
             return <img className="scale-100 w-[150px] h-[60px]" src={javaSvg} alt="Java" />;
@@ -16,4 +16,4 @@ const HoverSvg = ({ id }) => {
     }
 };
 
-export default HoverSvg;
+export default HoverTopSvg;
