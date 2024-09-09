@@ -1,10 +1,8 @@
 import DarkLightButton from "./DarkLightButton.jsx";
 import Body from "./Body.jsx";
-import profileImage from '../Assets/Images/profilepic.jpg';
 
 
 const Header = () => {
-
     return (
             <header className="relative w-full flex flex-col
             text-black dark:text-white p-4 h-[50vh] lg:max-w-[1024px] lg:min-w-[768px] mx-auto">

@@ -1,15 +1,16 @@
 import catImage from '../Assets/Images/cat.jpg';
 import HoverBottomSvg from "./HoverBottomSvg.jsx";
+import {useFullHoverContext} from "../HoverContext.js";
 
-const Card = ({name, id, onHover, hoveredId}) => {
-
+const Card = ({name, id}) => {
+    const {hoveredId, setHoveredId} = useFullHoverContext()
     return (
         <div className="flex flex-col">
             <button
                 className=" relative h-72 w-52  dark:border-primary_card_dark border-primary_card_light
          transition duration-[400ms] ease-in-out"
-                onMouseEnter={() => onHover(id)}
-                onMouseLeave={() => onHover(null)}>
+                onMouseEnter={() => setHoveredId(id)}
+                onMouseLeave={() => setHoveredId(null)}>
                 <div className="flex flex-col h-full">
                     <div className="h-2/3 border-[3px] border-b-[0px]  dark:border-primary_card_dark
                  border-primary_card_light ">
@@ -30,10 +31,7 @@ const Card = ({name, id, onHover, hoveredId}) => {
             </button>
                 {hoveredId === id && <HoverBottomSvg id={hoveredId}/>}
         </div>
-
     )
-
-
 }
 
 export default Card;
