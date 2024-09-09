@@ -6,7 +6,7 @@ import Footer from "./Components/Footer.jsx";
 
 
 function App() {
-    return (<div className={`relative h-screen bg-primary_light dark:bg-primary_dark 
+    return (<div className={`relative w-screen h-screen bg-primary_light dark:bg-primary_dark 
     font-moderustic text-lg`}>
         <WaveUnderlay/>
         <Header/>

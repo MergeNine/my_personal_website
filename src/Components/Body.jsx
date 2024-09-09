@@ -5,7 +5,7 @@ import HoverTopSvg from './HoverTopSvg.jsx';
 const Body = () => {
     const [hoveredId, setHoveredId] = useState(null);
 
-    return (<div className="pt-12 h-full ">
+    return (<div className="pt-12 h-full">
         <div className="flex flex-col justify-start ml-12 ">
             <section className="dark:text-primary_text_dark text-primary_text_light">
                 <div className="  flex justify-between items-center mr-24 h-[60px] ">
