@@ -11,7 +11,9 @@ const DarkLightButton = () => {
         document.body.className = darkMode ? 'dark' : '';
     }, [darkMode]);
 
-    return (<button className="text-primary_text_light hover:text-primary_hover_light
+    return (
+        <li title="Mode">
+        <button className="text-primary_text_light hover:text-primary_hover_light
                 dark:hover:text-primary_hover_dark dark:text-primary_text_dark "
                     onClick={toggleDarkMode}
     >{darkMode ?
@@ -23,7 +25,8 @@ const DarkLightButton = () => {
                         hover:fill-primary_hover_light dark:hover:fill-primary_hover_dark" xmlns="http://www.w3.org/2000/svg" height="25px" width="25px" viewBox="0 -960 960 960"><path d="M484-80q-84 0-157.5-32t-128-86.5Q144-253 112-326.5T80-484q0-146 93-257.5T410-880q-18 99 11 193.5T521-521q71 71 165.5 100T880-410q-26 144-138 237T484-80Z"/></svg>
         )
     }
-    </button>)
+    </button>
+        </li>)
 }
 
 

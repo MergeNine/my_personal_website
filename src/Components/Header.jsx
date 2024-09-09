@@ -1,19 +1,22 @@
 import DarkLightButton from "./DarkLightButton.jsx";
 import Body from "./Body.jsx";
+import profileImage from '../Assets/Images/profilepic.jpg';
+
 
 const Header = () => {
 
     return (
             <header className="relative w-full flex flex-col
             text-black dark:text-white p-4 h-[50vh] lg:max-w-[1024px] lg:min-w-[768px] mx-auto">
-
                 <nav className=" flex justify-between items-center">
-                    <button className="text-primary_text_light hover:text-primary_hover_light
+                        <button className="text-primary_text_light hover:text-primary_hover_light
                 dark:hover:text-primary_hover_dark dark:text-primary_text_dark ">
-                        Chris Annunziato
-                    </button>
+                            Chris Annunziato
+                        </button>
+
+
                     <ul className="flex space-x-6">
-                        <li>
+                        <li title="Notes">
                             <svg className="fill-primary_icon_light dark:fill-primary_icon_dark
                          hover:fill-primary_hover_light dark:hover:fill-primary_hover_dark" height="25px" width="25px" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
                                 <path d="M57.407,35.724l-2.85-2.85c-1.128-1.127-3.092-1.127-4.221,0L34.946,48.265l-2.121,7.779l-0.519,0.c-0.388,0.388-0.389,1.014-0.006,1.405l-0.005,0.02l0.019-0.005c0.194,0.191,0.446,0.288,0.699,0.c0.256,0,0.512-0.098,0.707-0.293l0.52-0.52l7.778-2.121l15.39-15.391C58.572,38.781,58.572,36.888,57.407,35.724z M37.255,48.10.243-10.243l4.243,4.243L41.498,53.027L37.255,48.784z M36.352,50.71l3.22,3.22l-4.428,1.208L36.352,50.71z M55.993,38.531 l-2.839,2.839l-4.243-4.242l2.839-2.839c0.373-0.373,1.022-0.372,1.394-0.001l2.85,2.85C56.378,37.521,56.378,38.147,55.993,38.531z"/>
