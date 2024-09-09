@@ -13,8 +13,6 @@ const Header = () => {
                 dark:hover:text-primary_hover_dark dark:text-primary_text_dark ">
                             Chris Annunziato
                         </button>
-
-
                     <ul className="flex space-x-6">
                         <li title="Notes">
                             <svg className="fill-primary_icon_light dark:fill-primary_icon_dark
