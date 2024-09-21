@@ -1,10 +1,10 @@
 import DarkLightButton from "./DarkLightButton.jsx";
 
 const Header = () => {
-    return (<header className=" text-black dark:text-white border mx-auto
-    sticky
+    return (<header className=" text-black dark:text-white
+    sticky  flex justify-center
     ">
-        <nav className="flex items-center justify-between mx-6 p-6
+        <nav className="flex items-center mx-6 p-6 sm:max-w-4xl justify-between w-full
 
              ">
             <button className="text-xl text-primary_text_light hover:text-primary_hover_light dark:text-primary_text_dark dark:hover:text-primary_hover_dark">
