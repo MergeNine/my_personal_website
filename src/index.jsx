@@ -10,7 +10,7 @@ function App() {
         <HoverProvider>
             <div className="relative h-screen w-screen bg-primary_light font-moderustic text-lg dark:bg-primary_dark">
                 <WaveUnderlay/>
-                <section>
+                <section className="sm:max-w-[60%] mx-auto">
                     <Header/>
                 </section>
             </div>
