@@ -13,12 +13,12 @@ const DarkLightButton = () => {
   return (
     <li title="Mode" className="h-[23px] w-[23px]">
       <button
-        className="text-primary_text_light hover:text-primary_hover_light dark:text-primary_text_dark dark:hover:text-primary_hover_dark"
+        className="text-primary_text_light  dark:text-primary_text_dark navbar-icons"
         onClick={toggleDarkMode}
       >
         {darkMode ? (
           <svg
-            className="fill-primary_icon_light hover:fill-primary_hover_light dark:fill-primary_icon_dark dark:hover:fill-primary_hover_dark"
+            className="fill-primary_icon_light  dark:fill-primary_icon_dark"
             xmlns="http://www.w3.org/2000/svg"
             height="23px"
             width="23px"
@@ -28,7 +28,7 @@ const DarkLightButton = () => {
           </svg>
         ) : (
           <svg
-            className="translate-x-[-1px] fill-primary_icon_light hover:fill-primary_hover_light dark:fill-primary_icon_dark dark:hover:fill-primary_hover_dark"
+            className="translate-x-[-1px] fill-primary_icon_light dark:fill-primary_icon_dark "
             xmlns="http://www.w3.org/2000/svg"
             height="23px"
             width="23px"

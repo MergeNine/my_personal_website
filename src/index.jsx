@@ -7,19 +7,19 @@ import Header from "./Components/HeaderFooter/Header";
 import Test from "./Components/Test.jsx";
 
 function App() {
-    return (<Test/>)
+    // return (<Test/>)
 
-    // return(
-    //     <HoverProvider>
-    //         <div className="relative h-screen w-screen
-    //         bg-primary_light font-moderustic text-lg dark:bg-primary_dark">
-    //             <WaveUnderlay/>
-    //             <section className="sm:max-w-[60%] mx-auto">
-    //                 <Header/>
-    //             </section>
-    //         </div>
-    //     </HoverProvider>
-    // );
+    return(
+        <HoverProvider>
+            <div className="relative h-screen w-screen
+            bg-primary_light font-moderustic text-lg dark:bg-primary_dark">
+                <WaveUnderlay/>
+                <section className="sm:max-w-[75%] mx-auto">
+                    <Header/>
+                </section>
+            </div>
+        </HoverProvider>
+    );
 
 }
 
