@@ -13,9 +13,14 @@ this is jarring on dark backgrounds*/
 
 
 @layer components {
+
+    .dark-light-fill {
+        @apply fill-primary_icon_light dark:fill-primary_icon_dark
+    }
+
     .navbar-icons {
         @apply relative flex items-center justify-center h-10 w-10
-        shadow-md bg-pri_ic_dark
+        shadow-md bg-primary_icon_bg_dark
         hover:bg-gray-800 hover:text-white rounded-3xl hover:rounded-xl
         transition-all ease-in-out duration-300
     }

@@ -26,23 +26,22 @@ const Header = () => {
             <ul className="flex item gap-3">
                 <li title="NotesSvg">
                     <div className="navbar-icons pl-[1px]">
-                        <NotesSvg className="fill-primary_icon_light dark:fill-primary_icon_dark h-[23px] w-[23px]"/>
+                        <NotesSvg className="dark-light-fill h-[23px] w-[23px]"/>
                     </div>
                 </li>
 
                 <li title="Github">
                     <a href="https://github.com/MergeNine" target="_blank">
                         <div className="navbar-icons">
-                            <GithubSvg className="fill-primary_icon_light dark:fill-primary_icon_dark h-[23px] w-[23px]"/>
+                            <GithubSvg className="dark-light-fill h-[23px] w-[23px]"/>
                         </div>
-
                     </a>
                 </li>
 
                 <li title="Linkedin">
                     <a href="https://www.linkedin.com/in/cmannunziato/" target="_blank">
                         <div className="navbar-icons">
-                            <LinkedInSvg className="fill-primary_icon_light dark:fill-primary_icon_dark h-[23px] w-[23px]"/>
+                            <LinkedInSvg className="dark-light-fill h-[23px] w-[23px]"/>
                         </div>
                     </a>
                 </li>

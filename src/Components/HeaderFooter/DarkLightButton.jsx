@@ -17,8 +17,8 @@ const DarkLightButton = () => {
             className="text-primary_text_light  dark:text-primary_text_dark navbar-icons"
             onClick={toggleDarkMode}>
             {darkMode ?
-                (<DarkButtonSvg className="fill-primary_icon_light  dark:fill-primary_icon_dark"/>) :
-                (<LightButtonSvg className="translate-x-[-1px] fill-primary_icon_light dark:fill-primary_icon_dark"/>
+                (<DarkButtonSvg className="dark-light-fill"/>) :
+                (<LightButtonSvg className="translate-x-[-1px] dark-light-fill"/>
                 )}
         </button>
     </li>);

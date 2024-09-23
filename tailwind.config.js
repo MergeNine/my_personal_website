@@ -13,7 +13,7 @@ module.exports = {
                 primary_icon_dark: "#bfdbfe", //#bfdbfe
                 primary_hover_dark: "#bfdbfe", //#59c9a7
                 primary_card_dark: "#9fb0bd", //#9fb0bd
-                pri_ic_dark: "#3b4d5b", //#9fb0bd
+                primary_icon_bg_dark: "#3b4d5b", //#9fb0bd
 
 
                 primary_text_light: "#332d28", // #332d28

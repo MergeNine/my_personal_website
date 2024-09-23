@@ -5,6 +5,7 @@ import {HoverProvider} from "./Components/Util/HoverContext";
 import WaveUnderlay from "./Components/Body/WaveUnderlay";
 import Header from "./Components/HeaderFooter/Header";
 import Test from "./Components/Test.jsx";
+import Footer from "./Components/HeaderFooter/Footer";
 
 function App() {
     // return (<Test/>)
