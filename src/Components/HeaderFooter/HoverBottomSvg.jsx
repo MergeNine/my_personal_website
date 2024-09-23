@@ -1,7 +1,7 @@
 import React from "react";
-import reactSvg from "../../Assets/Svg/React.svg";
-import tailwindSvg from "../../Assets/Svg/Tailwind.svg";
-import springSvg from "../../Assets/Svg/Spring.svg";
+import reactSvg from "../../Assets/Svg/react.svg";
+import tailwindSvg from "../../Assets/Svg/tailwind.svg";
+import springSvg from "../../Assets/Svg/spring.svg";
 
 const HoverBottomSvg = ({id}) => {
     switch (id) {
@@ -11,17 +11,17 @@ const HoverBottomSvg = ({id}) => {
                     <img
                         className="h-[30px] w-[50px] scale-100"
                         src={reactSvg}
-                        alt="Java"
+                        alt="JavaSvg"
                     />
                     <img
                         className="h-[30px] w-[50px] scale-100"
                         src={tailwindSvg}
-                        alt="Java"
+                        alt="JavaSvg"
                     />
                     <img
                         className="h-[30px] w-[50px] scale-100"
                         src={springSvg}
-                        alt="Java"
+                        alt="JavaSvg"
                     />
                 </div>
             );
@@ -31,17 +31,17 @@ const HoverBottomSvg = ({id}) => {
                     <img
                         className="h-[30px] w-[50px] scale-100"
                         src={reactSvg}
-                        alt="Java"
+                        alt="JavaSvg"
                     />
                     <img
                         className="h-[30px] w-[50px] scale-100"
                         src={tailwindSvg}
-                        alt="Java"
+                        alt="JavaSvg"
                     />
                     <img
                         className="h-[30px] w-[50px] scale-100"
                         src={springSvg}
-                        alt="Java"
+                        alt="JavaSvg"
                     />
                 </div>
             );
@@ -51,17 +51,17 @@ const HoverBottomSvg = ({id}) => {
                     <img
                         className="h-[30px] w-[50px] scale-100"
                         src={reactSvg}
-                        alt="Java"
+                        alt="JavaSvg"
                     />
                     <img
                         className="h-[30px] w-[50px] scale-100"
                         src={tailwindSvg}
-                        alt="Java"
+                        alt="JavaSvg"
                     />
                     <img
                         className="h-[30px] w-[50px] scale-100"
                         src={springSvg}
-                        alt="Java"
+                        alt="JavaSvg"
                     />
                 </div>
             );

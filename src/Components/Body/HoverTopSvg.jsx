@@ -1,7 +1,7 @@
 import React from "react";
-import kotlinSvg from "../../Assets/Svg/Kotlin.svg";
-import javaSvg from "../../Assets/Svg/Java.svg";
-import jsSvg from "../../Assets/Svg/Js.svg";
+import kotlinSvg from "../../Assets/Svg/kotlin.svg";
+import javaSvg from "../../Assets/Svg/java.svg";
+import jsSvg from "../../Assets/Svg/js.svg";
 
 const HoverTopSvg = ({ id }) => {
   switch (id) {
@@ -10,7 +10,7 @@ const HoverTopSvg = ({ id }) => {
         <img
           className="h-[60px] w-[150px] scale-100"
           src={javaSvg}
-          alt="Java"
+          alt="JavaSvg"
         />
       );
     case 2:
@@ -18,7 +18,7 @@ const HoverTopSvg = ({ id }) => {
         <img
           className="h-[60px] w-[150px] scale-75"
           src={kotlinSvg}
-          alt="Kotlin"
+          alt="KotlinSvg"
         />
       );
     case 3:
