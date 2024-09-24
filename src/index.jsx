@@ -15,7 +15,7 @@ function App() {
             <div className="relative h-screen w-screen
             bg-primary_light font-moderustic text-lg dark:bg-primary_dark">
                 <WaveUnderlay/>
-                <section className="sm:max-w-[75%] mx-auto">
+                <section className="flex flex-col max-w-5xl mx-auto ">
                     <Header/>
                 </section>
             </div>
