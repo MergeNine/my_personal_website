@@ -6,10 +6,10 @@ import HamburgerIconSvg from "../../Assets/Svg/SvgComponents/HamburgerIconSvg";
 
 
 const Header = () => {
-    return (<header className=" justify-between items-center mx-6 p-6
+    return (<header className=" justify-between items-center mx-4 p-6
     sticky flex ">
 
-        <button className="relative text-nowrap  w-56 h-10 text-xl
+        <button className="relative text-nowrap  w-56 h-12 text-xl
   text-primary_text_light hover:text-primary_hover_light
   dark:text-primary_text_dark dark:hover:text-primary_hover_dark
   group overflow-visible">
@@ -19,13 +19,15 @@ const Header = () => {
     left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2
     transform -skew-x-12 shadow-md rounded-md">
   </span>
-            <span className="relative">
+            <span className="relative ">
     Christopher Annunziato
   </span>
         </button>
 
+        <div className="navbar-icons h-12 w-12 sm:hidden">
             <HamburgerIconSvg className="dark-light-fill h-[30px] w-[30px] sm:hidden"/>
-        <ul className="flex gap-3 h-10 max-sm:hidden">
+        </div>
+        <ul className="flex gap-3 max-sm:hidden">
             <li title="NotesSvg">
             <div className="navbar-icons pl-[1p]">
                     <NotesSvg className="dark-light-fill h-[23px] w-[23px]"/>
