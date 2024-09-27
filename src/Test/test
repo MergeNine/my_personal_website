@@ -1,0 +1,41 @@
+import {FaFire, FaPoo} from 'react-icons/fa';
+import {BsFillLightningFill, BsPlus} from "react-icons/bs";
+import MenuIconSvg from "../Assets/Svg/SvgComponents/MenuIconSvg";
+import {useState} from "react";
+
+const Test = () => {
+
+    const [open, setOpen] = useState(false);
+
+    const handleOpen = () => {
+        setOpen(!open);
+    };
+
+    const handleMenuOne = () => {
+        console.log("hey1")
+        setOpen(false);
+    };
+
+    const handleMenuTwo = () => {
+        console.log("hey2")
+        setOpen(false);
+    };
+    return (
+        <div className=" h-screen flex justify-center items-center bg-neutral-400">
+            <button className=" bg-indigo-500 h-12 w-24" onClick={handleOpen}>Dropdown</button>
+            {open ? (<ul className="menu">
+                    <li className="menu-item">
+                        <button onClick={handleMenuOne}>Menu 1</button>
+                    </li>
+                    <li className="menu-item">
+                        <button onClick={handleMenuTwo}>Menu 2</button>
+                    </li>
+
+                </ul>
+
+            ) : null}
+        </div>
+    )
+}
+
+export default Test;

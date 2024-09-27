@@ -4,13 +4,14 @@ import "./styles.css";
 import {HoverProvider} from "./Components/Util/HoverContext";
 import WaveUnderlay from "./Components/Body/WaveUnderlay";
 import Header from "./Components/HeaderFooter/Header";
-import Test from "./Components/Test.jsx";
+import Test from "./Test/Test.jsx";
 import Footer from "./Components/HeaderFooter/Footer";
 
 function App() {
     // return (<Test/>)
 
     return(
+        // <Test/>
         <HoverProvider>
             <div className="relative h-screen w-screen
             bg-primary_light font-moderustic text-lg dark:bg-primary_dark">
