@@ -24,11 +24,7 @@ const Header = () => {
     Christopher Annunziato
   </span>
         </button>
-
-        <div className="relative navbar-icons h-12 w-12 sm:hidden">
-                <MenuDropDown/>
-        </div>
-
+        <MenuDropDown/>
         <ul className="flex gap-3 max-sm:hidden ">
             <li title="NotesSvg">
                 <a href="#" target="_blank" className="focus:outline-none">
@@ -55,7 +51,6 @@ const Header = () => {
             </li>
             <DarkLightButton/>
         </ul>
-
 
 
     </header>);

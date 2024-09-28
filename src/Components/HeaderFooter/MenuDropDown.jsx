@@ -12,30 +12,21 @@ const MenuDropDown = () => {
 
     useEffect(() => {
         const handleClick = (event) => {
-            if (dropdownRef.current && !dropdownRef.current.contains(event.target)){
+            if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
                 setOpen(false)
             }
         }
 
 
-        document.addEventListener('mousedown', handleClick )
+        document.addEventListener('mousedown', handleClick)
         return () => {
             document.removeEventListener(('mousedown', handleClick))
         }
     }, [])
 
 
-    // const menuItem = [
-    //     {icon: NotesSvg, label: "Notes"},
-    //     {icon: GithubSvg, label: "Notes"},
-    //     {icon: LinkedinSvg, label: "Notes"},
-    //     {icon: DarkButtonSvg, label: "Notes"},
-    // ]
-    //
-    return (<div ref={dropdownRef} className="relative sm:hidden ">
-            <button onClick={() => setOpen(!open)} className="focus:outline-none block">
-                <MenuIconSvg className=" dark-light-fill h-[30px] w-[30px] "/>
-            </button>
+    return (<button onClick={() => setOpen(!open)} ref={dropdownRef} className="relative sm:hidden navbar-icons h-12 w-12 focus:outline-none ">
+                <MenuIconSvg className=" dark-light-fill h-[30px] w-[30px]  "/>
             {open ? (<div className=" rounded-md absolute top-1/2 left-1/2 -translate-x-[6rem] translate-y-1/4 -mt-1 ">
                 <ul className="flex flex-col gap-2">
                     <li className="flex justify-left p-2 pl-2 items-center gap-2 h-9 w-30 bg-amber-300 rounded-sm ">
@@ -56,7 +47,7 @@ const MenuDropDown = () => {
                     </li>
                 </ul>
             </div>) : null}
-        </div>
+        </button>
 
     )
 }
