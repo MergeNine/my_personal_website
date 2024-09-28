@@ -21,12 +21,11 @@ const MenuDropDown = () => {
 
 
     return (<button onClick={() => setOpen(!open)} ref={dropdownRef} className="relative sm:hidden navbar-icons h-12 w-12
-            hover:text-inherit
-              focus:outline-none outline-none text-primary_text_light dark:text-primary_text_dark">
+            hover:text-inherit focus:outline-none outline-none text-primary_text_light dark:text-primary_text_dark">
             <MenuIconSvg className=" dark-light-fill h-[30px] w-[30px]  "/>
             {open ? (<div
                 className="absolute rounded-md transition-all ease-in-out duration-150 opacity-100
-                    top-1/2 left-1/2 -translate-x-[6rem] translate-y-1/4 -mt-1 bg-gray-800 dark:bg-gray-800 py-2 px-1.5 w-32">
+                    top-1/2 left-1/2 -translate-x-[6.2rem] translate-y-1/4 -mt-1 bg-gray-800 dark:bg-gray-800 py-2 px-1.5 w-32">
                 {/*text-primary_text_light  dark:text-primary_text_dark*/}
                 <ul className="flex flex-col gap-2">
                     <li className="flex justify-left  p-1.5  items-center h-9 w-30 bg-primary_dropdown_dark rounded-sm

@@ -7,7 +7,7 @@ import MenuDropDown from "./MenuDropDown";
 
 
 const Header = () => {
-    return (<header className=" justify-between items-center mx-4 p-6
+    return (<header className=" justify-between items-center mx-7 p-2
     sticky flex  ">
 
         <button className=" focus:outline-none  relative text-nowrap  w-56 h-12 text-xl
