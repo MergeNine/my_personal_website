@@ -25,7 +25,8 @@ const MenuDropDown = () => {
     }, [])
 
 
-    return (<button onClick={() => setOpen(!open)} ref={dropdownRef} className="relative sm:hidden navbar-icons h-12 w-12 focus:outline-none ">
+    return (<button onClick={() => setOpen(!open)} ref={dropdownRef} className="relative sm:hidden navbar-icons h-12 w-12
+    focus:outline-none outline-none ">
                 <MenuIconSvg className=" dark-light-fill h-[30px] w-[30px]  "/>
             {open ? (<div className=" rounded-md absolute top-1/2 left-1/2 -translate-x-[6rem] translate-y-1/4 -mt-1 ">
                 <ul className="flex flex-col gap-2">
