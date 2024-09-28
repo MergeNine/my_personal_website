@@ -14,6 +14,8 @@ module.exports = {
                 primary_hover_dark: "#bfdbfe", //#59c9a7
                 primary_card_dark: "#9fb0bd", //#9fb0bd
                 primary_icon_bg_dark: "#3b4d5b", //#9fb0bd
+                primary_dropdown_dark: "#1f2937", //#9fb0bd
+                primary_dropdown_hover_dark: "#496d88", //#9fb0bd
 
 
                 primary_text_light: "#332d28", // #332d28
@@ -22,6 +24,8 @@ module.exports = {
                 primary_icon_light: "#1d4ed8", //#1d4ed8
                 primary_hover_light: "#7c864c", //#7c864c
                 primary_card_light: "#668aa2", //#668aa2
+                primary_dropdown_light: "#3b4d5b", //#9fb0bd
+                primary_dropdown_hover_light: "#1f2937", //#9fb0bd
 
             },
             keyframes: {
