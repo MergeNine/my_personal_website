@@ -36,22 +36,22 @@ const MenuDropDown = () => {
             <button onClick={() => setOpen(!open)} className="focus:outline-none block">
                 <MenuIconSvg className=" dark-light-fill h-[30px] w-[30px] "/>
             </button>
-            {open ? (<div className=" rounded-md absolute top-1/2 left-1/2 -translate-x-1/2 translate-y-1/4 -mt-1">
+            {open ? (<div className=" rounded-md absolute top-1/2 left-1/2 -translate-x-[6rem] translate-y-1/4 -mt-1 ">
                 <ul className="flex flex-col gap-2">
-                    <li className="flex justify-center items-center gap-2 h-9 w-24 bg-amber-300 rounded-sm ">
-                        <div>Name</div>
+                    <li className="flex justify-left p-2 pl-2 items-center gap-2 h-9 w-30 bg-amber-300 rounded-sm ">
+                        <div>Linkedin</div>
                         <GithubSvg/>
                     </li>
-                    <li className="flex justify-center items-center gap-2 h-9 w-24 bg-amber-300 rounded-sm ">
-                        <div>Name</div>
+                    <li className="flex justify-left p-2 pl-2 items-center gap-2 h-9 w-30 bg-amber-300 rounded-sm ">
+                        <div>Linkedin</div>
                         <GithubSvg/>
                     </li>
-                    <li className="flex justify-center items-center gap-2 h-9 w-24 bg-amber-300 rounded-sm ">
-                        <div>Name</div>
+                    <li className="flex justify-left p-2 pl-2 items-center gap-2 h-9 w-30 bg-amber-300 rounded-sm ">
+                        <div>Linkedin</div>
                         <GithubSvg/>
                     </li>
-                    <li className="flex justify-center items-center gap-2 h-9 w-24 bg-amber-300 rounded-sm ">
-                        <div>Name</div>
+                    <li className="flex justify-left p-2 pl-2 items-center gap-2 h-9 w-30 bg-amber-300 rounded-sm ">
+                        <div>Linkedin</div>
                         <GithubSvg/>
                     </li>
                 </ul>
