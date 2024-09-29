@@ -28,7 +28,7 @@ const Header = () => {
         <ul className="flex gap-3 max-sm:hidden ">
             <li title="NotesSvg">
                 <a href="#" target="_blank" className="focus:outline-none">
-                    <div className="navbar-icons pl-[1p]">
+                    <div className="navbar-icons pl-[2px]">
                         <NotesSvg className="dark-light-fill h-[23px] w-[23px]"/>
                     </div>
                 </a>
@@ -54,7 +54,7 @@ const Header = () => {
 
 
     </header>);
-};
+}
 
 export default Header;
 
