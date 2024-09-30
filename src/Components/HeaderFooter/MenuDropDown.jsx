@@ -25,49 +25,59 @@ const MenuDropDown = () => {
             ref={dropdownRef}
             className={`relative sm:hidden navbar-icons h-12 w-12
         hover:text-inherit focus:outline-none outline-none text-primary_text_light dark:text-primary_text_dark
-        ${open ? 'bg-gray-800' : ''}`}
+        ${open ? ' bg-primary_icon_bg_hover_light dark:bg-gray-800' : ''}`}
         >
             <MenuIconSvg className=" dark-light-fill h-[30px] w-[30px]  "/>
             {open ? (<div
                 className="absolute rounded-md transition-all ease-in-out duration-150 opacity-100 scale-100
-                    top-1/2 left-1/2 -translate-x-[6.2rem] translate-y-1/4 -mt-3 bg-gray-800 dark:bg-gray-800 py-2 px-1.5 w-32">
+                    top-1/2 left-1/2 -translate-x-[6.2rem] translate-y-1/4 -mt-3
+                    bg-primary_icon_bg_hover_light dark:bg-gray-800 py-2 px-1.5 w-32">
                 {/*text-primary_text_light  dark:text-primary_text_dark*/}
                 <ul className="flex flex-col gap-2">
-                    <li className="flex justify-left  p-1.5  items-center h-9 w-30 bg-primary_dropdown_dark rounded-sm
+                    <li className="flex justify-left  p-1.5  items-center h-9 w-30
+                    hover:bg-primary_dropdown_light dark:bg-primary_dropdown_dark rounded-sm
                     hover:bg-primary_dropdown_hover_light hover:dark:bg-primary_dropdown_hover_dark">
                         <div>Notes</div>
                     </li>
-                    <li className="flex justify-left  p-1.5  items-center h-9 w-30 bg-primary_dropdown_dark rounded-sm
+                    <li className="flex justify-left  p-1.5  items-center h-9 w-30
+                    hover:bg-primary_dropdown_light dark:bg-primary_dropdown_dark rounded-sm
                     hover:bg-primary_dropdown_hover_light hover:dark:bg-primary_dropdown_hover_dark">
                         <div>Github</div>
                     </li>
-                    <li className="flex justify-left   p-1.5 items-center h-9 w-30 bg-primary_dropdown_dark rounded-sm
+                    <li className="flex justify-left   p-1.5 items-center h-9 w-30
+                    hover:bg-primary_dropdown_light dark:bg-primary_dropdown_dark rounded-sm
                     hover:bg-primary_dropdown_hover_light hover:dark:bg-primary_dropdown_hover_dark">
                         <div>Linkedin</div>
                     </li>
-                    <li className="flex justify-left p-1.5   items-center h-9 w-30 bg-primary_dropdown_dark rounded-sm
+                    <li className="flex justify-left p-1.5   items-center h-9 w-30
+                    hover:bg-primary_dropdown_light dark:bg-primary_dropdown_dark rounded-sm
                     hover:bg-primary_dropdown_hover_light hover:dark:bg-primary_dropdown_hover_dark">
                         <div>Theme</div>
                     </li>
                 </ul>
-            </div>) : (<div
+            </div>) :(<div
                 className="absolute rounded-md transition-all ease-in-out duration-150 opacity-0 scale-0
-                    top-1/2 left-1/2 -translate-x-[6rem] translate-y-1/4 -mt-1 bg-gray-800 dark:bg-gray-800 py-2 px-1.5 w-32">
+                    top-1/2 left-1/2 -translate-x-[6.2rem] translate-y-1/4 -mt-3
+                    bg-primary_icon_bg_hover_light dark:bg-gray-800 py-2 px-1.5 w-32">
                 {/*text-primary_text_light  dark:text-primary_text_dark*/}
                 <ul className="flex flex-col gap-2">
-                    <li className="flex justify-left  p-1.5  items-center h-9 w-30 bg-primary_dropdown_dark rounded-sm
+                    <li className="flex justify-left  p-1.5  items-center h-9 w-30
+                    hover:bg-primary_dropdown_light dark:bg-primary_dropdown_dark rounded-sm
                     hover:bg-primary_dropdown_hover_light hover:dark:bg-primary_dropdown_hover_dark">
                         <div>Notes</div>
                     </li>
-                    <li className="flex justify-left  p-1.5  items-center h-9 w-30 bg-primary_dropdown_dark rounded-sm
+                    <li className="flex justify-left  p-1.5  items-center h-9 w-30
+                    hover:bg-primary_dropdown_light dark:bg-primary_dropdown_dark rounded-sm
                     hover:bg-primary_dropdown_hover_light hover:dark:bg-primary_dropdown_hover_dark">
                         <div>Github</div>
                     </li>
-                    <li className="flex justify-left   p-1.5 items-center h-9 w-30 bg-primary_dropdown_dark rounded-sm
+                    <li className="flex justify-left   p-1.5 items-center h-9 w-30
+                    hover:bg-primary_dropdown_light dark:bg-primary_dropdown_dark rounded-sm
                     hover:bg-primary_dropdown_hover_light hover:dark:bg-primary_dropdown_hover_dark">
                         <div>Linkedin</div>
                     </li>
-                    <li className="flex justify-left p-1.5   items-center h-9 w-30 bg-primary_dropdown_dark rounded-sm
+                    <li className="flex justify-left p-1.5   items-center h-9 w-30
+                    hover:bg-primary_dropdown_light dark:bg-primary_dropdown_dark rounded-sm
                     hover:bg-primary_dropdown_hover_light hover:dark:bg-primary_dropdown_hover_dark">
                         <div>Theme</div>
                     </li>

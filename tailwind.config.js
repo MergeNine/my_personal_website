@@ -20,14 +20,16 @@ module.exports = {
 
                 primary_text_light: "#332d28", // #332d28
                 primary_light: "#F3F5F6", //#F3F5F6
-                primary_wave_light: "#adbfcc", //#adbfcc
+                // primary_wave_light: "#adbfcc", //#adbfcc
+                primary_wave_light: "#c2cce0", //#adbfcc
                 primary_icon_light: "#436cb7", //#1d4ed8
                 // primary_icon_light: "#436cb7", //#1d4ed8
                 primary_hover_light: "#436cb7", //#7c864c
                 primary_card_light: "#668aa2", //#668aa2
                 primary_icon_bg_light: "#ebecee", //#9fb0bd
                 primary_icon_bg_hover_light: "#dddee0", //#9fb0bd
-                primary_dropdown_light: "#3b4d5b", //#9fb0bd
+                primary_dropdown_light: "#cacfde", //#9fb0bd
+                // primary_dropdown_light: "#bdc1da", //#9fb0bd
                 primary_dropdown_hover_light: "#1f2937", //#9fb0bd
 
             },
