@@ -11,16 +11,20 @@ const Header = () => {
     sticky flex  ">
 
         <button className=" focus:outline-none  relative text-nowrap  w-56 h-12 text-xl
-  text-primary_text_light hover:text-primary_hover_light
-  dark:text-primary_text_dark dark:hover:text-primary_hover_dark
+  text-primary_text_light
+  hover:text-primary_hover_light
+  dark:text-primary_text_dark
+  dark:hover:text-primary_hover_dark
   group overflow-visible">
   <span className="absolute w-64 h-12
-    bg-gray-800 group-hover:opacity-100 opacity-0
+    bg-primary_icon_bg_hover_light
+    dark:bg-gray-800
+    group-hover:opacity-100 opacity-0
     transition-opacity duration-200 ease-in-out
     left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2
     transform -skew-x-12 shadow-md rounded-md">
   </span>
-            <span className="relative  ">
+            <span className="relative">
     Christopher Annunziato
   </span>
         </button>

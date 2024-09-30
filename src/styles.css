@@ -20,7 +20,11 @@ this is jarring on dark backgrounds*/
 
     .navbar-icons {
         @apply relative flex items-center justify-center h-10 w-10
-        shadow-md bg-primary_icon_bg_dark hover:bg-gray-800
+        shadow-md
+        hover:bg-primary_icon_bg_hover_light
+        bg-primary_icon_bg_light
+        dark:bg-primary_icon_bg_dark
+        hover:dark:bg-gray-800
         hover:text-white rounded-3xl hover:rounded-xl
         transition-all ease-in-out duration-300
     }

@@ -14,7 +14,7 @@ const DarkLightButton = () => {
 
     return (<li title="Mode" className="h-[23px] w-[23px] mr-3 ">
         <div
-            className="text-primary_text_light  dark:text-primary_text_dark navbar-icons hover:bg-gray-800 "
+            className="text-primary_text_light dark:text-primary_text_dark navbar-icons  "
             onClick={toggleDarkMode}>
             {darkMode ?
                 (<DarkButtonSvg className="dark-light-fill"/>) :
