@@ -9,7 +9,7 @@ import profilePic from "../../Assets/Images/profilepic.jpg";
 const BodyTop = () => {
   const { hoveredId, setHoveredId } = useFullHoverContext();
   return (
-    <div className="bg-primary_light pt-12 dark:bg-primary_dark z-50 border">
+    <div className="bg-primary_light pt-12 dark:bg-primary_dark z-50 ">
       <article className=" flex flex-col items-center justify-center gap-6 px-52 lg:min-w-[768px] lg:max-w-[1024px]">
         <div className="mx-12 flex flex-col">
           <div className="flex justify-between gap-10">
@@ -29,26 +29,20 @@ const BodyTop = () => {
 
           <div className="mt-2 flex flex-col gap-y-4 px-2  font-[600] text-black dark:text-neutral-300">
             <p className="">
-              I'm a Philadelphia based developer.
+              I'm a Philadelphia based web developer.
             </p>
-            <p className="">
-              My goal is to develop fullstack web applications.
-            </p>
+
             <p className="">
               I'm currently working on an idea im very excited about.
               <br/>
-              A Fractal // Algorithm path visualizer.
+              A fractal and algorithm path visualizer.
             </p>
             <p className="">
-              I'm interested to see what happens when i put all these pieces together, because being a chemist
-              I'm interested in nature and its imperfections and in general stacking ideas and experimenting.
+             As a former chemist I'm interested in nature and its imperfections and in general,
+              layering ideas and experimenting with web technology.
             </p>
             <p className="">
-              The goal is to do something novel, to push myself and in my ability to generate fullstack web applications.
-              The idea is to show the shortest path of different "natural" fractals via a search algorithm.
-            </p>
-            <p className="">
-              React // Tailwind // Java is my stack of choice.
+              I would like to find the shortest path of several imperfect fractals (those with omissions, additions and cross-linkages) via search algorithms.
             </p>
           </div>
         </div>
