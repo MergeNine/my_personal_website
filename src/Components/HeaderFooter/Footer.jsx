@@ -2,7 +2,7 @@ import profilePic from "../../Assets/Images/profilepic.jpg";
 
 const Footer = () => {
   return (
-    <footer className="relative flex w-screen flex-col items-center justify-between">
+    <footer className="flex items-center justify-center border">
       <p className="text-sm text-black text-opacity-[0.35] dark:text-white dark:text-opacity-[0.35]">
         2024 CAnnunziato
       </p>
