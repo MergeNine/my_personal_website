@@ -22,8 +22,8 @@ function App() {
                 <WaveDivider/>
                 <BodyBottom/>
                 <Footer/>
-                <section className="flex flex-col max-w-5xl mx-auto ">
-                </section>
+                {/*<section className="flex flex-col max-w-5xl mx-auto ">*/}
+                {/*</section>*/}
             </div>
         </HoverProvider>);
 

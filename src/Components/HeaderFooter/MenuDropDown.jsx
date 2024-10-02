@@ -27,7 +27,7 @@ const MenuDropDown = () => {
         hover:text-inherit focus:outline-none outline-none text-primary_text_light dark:text-primary_text_dark
         ${open ? ' bg-primary_icon_bg_hover_light dark:bg-gray-800' : ''}`}
         >
-            <MenuIconSvg className=" dark-light-fill h-[30px] w-[30px]  "/>
+            <MenuIconSvg className="dark-light-fill h-[30px] w-[30px]  "/>
             {open ? (<div
                 className="absolute rounded-md transition-all ease-in-out duration-150 opacity-100 scale-100
                     top-1/2 left-1/2 -translate-x-[6.2rem] translate-y-1/4 -mt-3

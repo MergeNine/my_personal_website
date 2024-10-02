@@ -8,7 +8,7 @@ import profilePic from "../../Assets/Images/profilepic.jpg";
 
 const BodyTop = () => {
     const {hoveredId, setHoveredId} = useFullHoverContext();
-    return (<div className="bg-primary_light pt-12 dark:bg-primary_dark z-50 ">
+    return (<div className="min-w-[1024px]  max-w-5xl mx-auto bg-primary_light pt-12 dark:bg-primary_dark z-50 ">
         <article
             className=" flex flex-col items-center justify-center gap-6 px-52 lg:min-w-[768px] lg:max-w-[1024px]">
             <div className="mx-12 flex flex-col">
