@@ -22,7 +22,10 @@ const BodyTop = () => {
                         </p>
                     </div>
                     <img
-                        className="h-28 w-28 rounded-full border-2 border-gray-100 object-cover"
+                        className="h-28 w-28 rounded-full object-cover ring-2
+                        dark:ring-primary_text_dark ring-primary_text_light
+
+                        "
                         src={profilePic}
                     ></img>
                 </div>
