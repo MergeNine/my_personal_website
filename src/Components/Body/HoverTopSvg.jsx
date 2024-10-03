@@ -1,33 +1,20 @@
-import React from "react";
-import kotlinSvg from "../../Assets/Svg/kotlin.svg";
-import javaSvg from "../../Assets/Svg/java.svg";
-import jsSvg from "../../Assets/Svg/js.svg";
+import JsSvg from "../../Assets/Svg/SvgComponents/JsSvg";
+import JavaSvg from "../../Assets/Svg/SvgComponents/JavaSvg";
+import KotlinSvg from "../../Assets/Svg/SvgComponents/KotlinSvg";
 
 const HoverTopSvg = ({ id }) => {
   switch (id) {
     case 1:
       return (
-        <img
-          className="h-[60px] w-[150px] scale-100"
-          src={javaSvg}
-          alt="JavaSvg"
-        />
+          <JavaSvg className="h-[60px] w-[150px] scale-100"/>
       );
     case 2:
       return (
-        <img
-          className="h-[60px] w-[150px] scale-75"
-          src={kotlinSvg}
-          alt="KotlinSvg"
-        />
+          <KotlinSvg className="h-[60px] w-[150px] scale-75"/>
       );
     case 3:
       return (
-        <img
-          className="h-[60px] w-[150px] scale-75"
-          src={jsSvg}
-          alt="JavaScript"
-        />
+          <JsSvg className="h-[60px] w-[150px] scale-75"/>
       );
     default:
       return null;

@@ -11,20 +11,17 @@ import BodyTop from "./Components/Body/BodyTop";
 
 function App() {
     // return (<Test/>)
-
-    return (// <Test/>
+    {/*<div className="absolute top-1/2 left-0 right-0 bg-red-500 h-px"></div>*/}
+    {/*<div className="absolute top-0 bottom-0 left-1/2 bg-red-500 w-px"></div>*/}
+    return (
         <HoverProvider>
-            <div className="h-screen w-screen bg-primary_light font-moderustic text-lg dark:bg-primary_dark">
-                {/*<div className="absolute top-1/2 left-0 right-0 bg-red-500 h-px"></div>*/}
-                {/*<div className="absolute top-0 bottom-0 left-1/2 bg-red-500 w-px"></div>*/}
-                <Header/>
-                <BodyTop/>
-                <WaveDivider/>
-                <BodyBottom/>
-                <Footer/>
-                {/*<section className="flex flex-col max-w-5xl mx-auto ">*/}
-                {/*</section>*/}
-            </div>
+            <main className="h-screen w-screen bg-primary_light font-moderustic text-lg dark:bg-primary_dark">
+                    <Header/>
+                    <BodyTop/>
+                    <WaveDivider/>
+                    <BodyBottom/>
+                    <Footer/>
+            </main>
         </HoverProvider>);
 
 }
