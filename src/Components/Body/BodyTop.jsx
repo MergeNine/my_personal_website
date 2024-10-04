@@ -25,15 +25,15 @@ const BodyTop = () => {
                         className="h-24 w-24 rounded-full object-cover ring-2 mr-10
                         dark:ring-primary_text_dark ring-primary_text_light"
                         src={profilePic}
-                    ></img>
+                    />
                 </div>
 
                 <div className="mt-2 flex flex-col gap-y-4 px-2  font-[600] text-black dark:text-neutral-300">
                     <div className="inline-block">
-                        <span className="border-b-4 in border-light_accent dark:border-dark_accent">What I'm Up To</span>
+                        <span className="border-b-4 in border-light_accent dark:border-dark_accent text-xl">What I'm Up To</span>
                     </div>
                     <p className="flex flex-col gap-2 pr-14 font-normal text-primary_text_light dark:text-primary_text_dark">
-                        <span>I'm working on an idea im very excied about bringing to life. A fractal-algorithm path visualizer.</span>
+                        <span>I'm working on an idea im very excited about bringing to life. A fractal-algorithm path visualizer.</span>
                         <span>As a former chemist, I'm interested in nature and its imperfections, as well as layering ideas and experimenting with web technology.</span>
                         <span>My goal is to find the shortest path through several imperfect fractals (those with omissions, additions, and cross-linkages) using search algorithms.</span>
                     </p>
