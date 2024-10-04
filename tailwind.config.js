@@ -16,6 +16,8 @@ module.exports = {
                 primary_icon_bg_dark: "#3b4d5b", //#9fb0bd
                 primary_dropdown_dark: "#1f2937", //#9fb0bd
                 primary_dropdown_hover_dark: "#496d88", //#9fb0bd
+                dark_accent: "#627a8c", //#9fb0bd
+
 
 
                 primary_text_light: "#332d28", // #332d28
@@ -31,6 +33,7 @@ module.exports = {
                 primary_dropdown_light: "#cacfde", //#9fb0bd
                 // primary_dropdown_light: "#bdc1da", //#9fb0bd
                 primary_dropdown_hover_light: "#1f2937", //#9fb0bd
+                light_accent: "#9da4b2", //#9fb0bd
 
             },
             keyframes: {

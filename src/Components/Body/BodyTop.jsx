@@ -8,11 +8,11 @@ import profilePic from "../../Assets/Images/profilepic.jpg";
 
 const BodyTop = () => {
     const {hoveredId, setHoveredId} = useFullHoverContext();
-    return (<div className="min-w-[1024px]  max-w-5xl mx-auto bg-primary_light pt-12 dark:bg-primary_dark  ">
+    return (<div className=" max-w-5xl mx-auto bg-primary_light pt-12 dark:bg-primary_dark  ">
         <article
             className=" flex flex-col items-center justify-center gap-6 px-52 lg:min-w-[768px] lg:max-w-[1024px]">
             <div className="mx-12 flex flex-col">
-                <div className="flex justify-between gap-10">
+                <div className=" flex items-start justify-between ">
                     <div className="flex flex-col items-start justify-center">
                         <h2 className="text-3xl text-black dark:text-white">
                             Christopher Annunziato
@@ -22,17 +22,18 @@ const BodyTop = () => {
                         </p>
                     </div>
                     <img
-                        className="h-28 w-28 rounded-full object-cover ring-2
-                        dark:ring-primary_text_dark ring-primary_text_light
-
-                        "
+                        className="h-24 w-24 rounded-full object-cover ring-2 mr-10
+                        dark:ring-primary_text_dark ring-primary_text_light"
                         src={profilePic}
                     ></img>
                 </div>
 
                 <div className="mt-2 flex flex-col gap-y-4 px-2  font-[600] text-black dark:text-neutral-300">
-                    <p className="flex flex-col gap-2 pr-14">
-                        <span>I'm a Philadelphia-based web developer currently working on an exciting idea:</span>
+                    <div className="inline-block">
+                        <span className="border-b-4 in border-light_accent dark:border-dark_accent">What I'm Up To</span>
+                    </div>
+                    <p className="flex flex-col gap-2 pr-14 font-normal text-primary_text_light dark:text-primary_text_dark">
+                    <span>I'm a Philadelphia-based web developer currently working on an exciting idea:</span>
                         <span>A fractal and algorithm path visualizer.</span>
                         <span>As a former chemist, I'm interested in nature and its imperfections, as well as layering ideas and experimenting with web technology.</span>
                         <span>My goal is to find the shortest path through several imperfect fractals (those with omissions, additions, and cross-linkages) using search algorithms.</span>
@@ -59,3 +60,5 @@ const BodyTop = () => {
 };
 
 export default BodyTop;
+
+

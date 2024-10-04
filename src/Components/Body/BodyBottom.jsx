@@ -1,12 +1,15 @@
 import {useFullHoverContext} from "../Util/HoverContext";
 import Card from "./Card";
 import HoverTopSvg from "./HoverTopSvg";
+import Timeline from "./Timeline";
 
 const BodyBottom = () => {
     const {hoveredId, setHoveredId} = useFullHoverContext();
     return (
         <div className="bg-primary_wave_light dark:bg-primary_wave_dark">
-
+            <div className=" max-w-5xl mx-auto">
+                <Timeline/>
+            </div>
 
         </div>
         //
