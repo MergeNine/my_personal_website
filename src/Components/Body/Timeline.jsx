@@ -6,30 +6,34 @@ const Timeline = () => {
             <span className="border-b-4 in border-light_accent dark:border-dark_accent text-xl">Bio</span>
         </div>
         <p className="flex flex-col gap-2 pr-14 font-normal text-primary_text_light dark:text-primary_text_dark">
-            <ul className="">
+            <ul>
                 <li className="flex items-start mb-1">
-                    <div className="font-semibold w-20 flex-shrink-0 mr-4">1989</div>
-                    <div className="flex-1">Born in Philly Suburbs.</div>
+                    <div className="font-semibold w-20 mr-2">1989</div>
+                    <div>Born in Media, PA</div>
                 </li>
                 <li className="flex items-start mb-1">
-                    <div className="font-semibold w-20 flex-shrink-0 mr-4">2017</div>
-                    <div className="flex-1">Masters in Chemistry at UPenn.</div>
+                    <div className="font-semibold w-20 mr-2">2012</div>
+                    <div>Bachelors in Chemistry at Widener</div>
                 </li>
                 <li className="flex items-start mb-1">
-                    <div className="font-semibold w-20 flex-shrink-0 mr-4">2019</div>
-                    <div className="flex-1">Chemist in Drug-Discovery-Immunology</div>
+                    <div className="font-semibold w-20 mr-2">2017</div>
+                    <div>Masters in Chemistry at UPenn</div>
                 </li>
                 <li className="flex items-start mb-1">
-                    <div className="font-semibold w-20 flex-shrink-0 mr-4">2022</div>
-                    <div className="flex-1">Android Development</div>
+                    <div className="font-semibold w-20 mr-2">2019</div>
+                    <div>Chemist in Drug-Discovery-Immunology</div>
                 </li>
                 <li className="flex items-start mb-1">
-                    <div className="font-semibold w-20 flex-shrink-0 mr-4">2024</div>
-                    <div className="flex-1">Web Development</div>
+                    <div className="font-semibold w-20 mr-2">2022</div>
+                    <div>Android Development</div>
                 </li>
                 <li className="flex items-start mb-1">
-                    <div className="font-semibold w-20 flex-shrink-0 mr-4">Present</div>
-                    <div className="flex-1">React / Tailwind / Java</div>
+                    <div className="font-semibold w-20 mr-2">2024</div>
+                    <div>Web Development</div>
+                </li>
+                <li className="flex items-start mb-1">
+                    <div className="font-semibold w-20 mr-2">Present</div>
+                    <div>React / Tailwind / Java</div>
                 </li>
             </ul>
         </p>
