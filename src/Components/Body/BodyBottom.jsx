@@ -7,8 +7,9 @@ const BodyBottom = () => {
     const {hoveredId, setHoveredId} = useFullHoverContext();
     return (
         <div className="bg-primary_wave_light dark:bg-primary_wave_dark">
-            <div className=" max-w-5xl mx-auto">
-                <Timeline/>
+            <div className="max-w-5xl mx-auto
+            gap-6 px-52 lg:min-w-[768px] lg:max-w-[1024px]">
+                    <Timeline/>
             </div>
 
         </div>

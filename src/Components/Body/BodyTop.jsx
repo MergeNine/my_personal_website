@@ -33,8 +33,7 @@ const BodyTop = () => {
                         <span className="border-b-4 in border-light_accent dark:border-dark_accent">What I'm Up To</span>
                     </div>
                     <p className="flex flex-col gap-2 pr-14 font-normal text-primary_text_light dark:text-primary_text_dark">
-                    <span>I'm a Philadelphia-based web developer currently working on an exciting idea:</span>
-                        <span>A fractal and algorithm path visualizer.</span>
+                        <span>I'm working on an idea im very excied about bringing to life. A fractal-algorithm path visualizer.</span>
                         <span>As a former chemist, I'm interested in nature and its imperfections, as well as layering ideas and experimenting with web technology.</span>
                         <span>My goal is to find the shortest path through several imperfect fractals (those with omissions, additions, and cross-linkages) using search algorithms.</span>
                     </p>
