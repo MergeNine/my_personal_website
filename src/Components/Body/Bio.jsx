@@ -1,11 +1,16 @@
 import profilePic from "../../Assets/Images/profilepic.jpg";
+import Chemistry from "./Chemistry";
 
-const Timeline = () => {
-    return (<div className="mx-12  flex flex-col gap-y-4 px-2  font-[600] text-black dark:text-neutral-300">
+const Bio = () => {
+    return (<div className="flex flex-col mx-12 gap-y-4 px-2 font-[600]
+    text-black dark:text-neutral-300">
         <div className="inline-block">
-            <span className="border-b-4 in border-light_accent dark:border-dark_accent text-xl">Bio</span>
+            <span className="border-b-4 text-xl
+            border-light_accent dark:border-dark_accent ">Bio</span>
         </div>
-        <p className="flex flex-col gap-2 pr-14 font-normal text-primary_text_light dark:text-primary_text_dark">
+
+        <p className="flex flex-col gap-2 pr-14 font-normal
+        text-primary_text_light dark:text-primary_text_dark">
             <ul>
                 <li className="flex items-start mb-1">
                     <div className="font-semibold w-20 mr-2">1989</div>
@@ -37,8 +42,9 @@ const Timeline = () => {
                 </li>
             </ul>
         </p>
+        <Chemistry/>
     </div>)
 }
 
 
-export default Timeline
+export default Bio

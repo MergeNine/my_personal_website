@@ -17,6 +17,7 @@ module.exports = {
                 primary_dropdown_dark: "#1f2937", //#9fb0bd
                 primary_dropdown_hover_dark: "#496d88", //#9fb0bd
                 dark_accent: "#627a8c", //#9fb0bd
+                dark_molecule: "#b6c0ce", //#9fb0bd
 
 
 
@@ -34,6 +35,7 @@ module.exports = {
                 // primary_dropdown_light: "#bdc1da", //#9fb0bd
                 primary_dropdown_hover_light: "#1f2937", //#9fb0bd
                 light_accent: "#9da4b2", //#9fb0bd
+                light_molecule: "#2f2924", //#9fb0bd
 
             },
             keyframes: {
