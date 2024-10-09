@@ -1,6 +1,6 @@
-import catImage from "../../Assets/Images/cat.jpg";
-import HoverBottomSvg from "../HeaderFooter/HoverBottomSvg.jsx";
-import { useFullHoverContext } from "../Util/HoverContext.jsx";
+import catImage from "../../../Assets/Images/cat.jpg";
+import HoverBottomSvg from "../../HeaderFooter/Secondary/HoverBottomSvg.jsx";
+import { useFullHoverContext } from "../../Util/HoverContext.jsx";
 
 const Card = ({ name, id }) => {
   const { hoveredId, setHoveredId } = useFullHoverContext();
@@ -31,5 +31,19 @@ const Card = ({ name, id }) => {
     </div>
   );
 };
+
+{/*<div className="ml-12 flex flex-col justify-start">*/}
+{/*  <section className="text-primary_text_light dark:text-primary_text_dark">*/}
+{/*    <div className="mr-24 flex h-[60px] items-center justify-between">*/}
+{/*      <h1 className="text-4xl">Selected Work</h1>*/}
+{/*      {hoveredId && <HoverTopSvg id={hoveredId} />}*/}
+{/*    </div>*/}
+{/*  </section>*/}
+{/*  <div className="0 relative -ml-12 mt-6 flex h-72 justify-center gap-x-2">*/}
+{/*    <Card name="Hello" id={1} />*/}
+{/*    <Card name="Hell" id={2} />*/}
+{/*    <Card name="He" id={3} />*/}
+{/*  </div>*/}
+{/*</div>*/}
 
 export default Card;

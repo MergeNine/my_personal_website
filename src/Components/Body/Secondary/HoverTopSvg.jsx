@@ -1,6 +1,6 @@
-import JsSvg from "../../Assets/Svg/SvgComponents/JsSvg";
-import JavaSvg from "../../Assets/Svg/SvgComponents/JavaSvg";
-import KotlinSvg from "../../Assets/Svg/SvgComponents/KotlinSvg";
+import JsSvg from "../../../Assets/Svg/SvgComponents/JsSvg";
+import JavaSvg from "../../../Assets/Svg/SvgComponents/JavaSvg";
+import KotlinSvg from "../../../Assets/Svg/SvgComponents/KotlinSvg";
 
 const HoverTopSvg = ({ id }) => {
   switch (id) {

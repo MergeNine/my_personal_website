@@ -1,7 +1,7 @@
 import {useEffect, useState} from "react";
-import setTheme from "../Util/themeSetter";
-import DarkButtonSvg from "../../Assets/Svg/SvgComponents/DarkButtonSvg";
-import LightButtonSvg from "../../Assets/Svg/SvgComponents/LightButtonSvg";
+import setTheme from "../../Util/themeSetter";
+import DarkButtonSvg from "../../../Assets/Svg/SvgComponents/DarkButtonSvg";
+import LightButtonSvg from "../../../Assets/Svg/SvgComponents/LightButtonSvg";
 
 const DarkLightButton = () => {
     const [darkMode, setDarkMode] = useState(setTheme());

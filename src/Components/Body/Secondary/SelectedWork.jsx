@@ -1,6 +1,6 @@
 import HoverTopSvg from "./HoverTopSvg";
 import Card from "./Card";
-import {useFullHoverContext} from "../Util/HoverContext";
+import {useFullHoverContext} from "../../Util/HoverContext";
 
 const {hoveredId, setHoveredId} = useFullHoverContext();
 const SelectedWork = () => {

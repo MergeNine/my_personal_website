@@ -1,7 +1,7 @@
-import WaveDividerSvg from "../../Assets/Svg/SvgComponents/WaveDividerSvg";
+import WaveDividerSvg from "../../../Assets/Svg/SvgComponents/WaveDividerSvg";
 
 const WaveDivider = () => {
-    return (<div className="-mb-1 h-[100px] w-screen overflow-hidden bg-gunmetal-50">
+    return (<div className="-mb-1 h-[100px] overflow-hidden bg-gunmetal-50">
             <WaveDividerSvg className="stroke-none h-full w-full
             fill-primary_light dark:fill-primary_dark bg-primary_wave_light dark:bg-primary_wave_dark"
             />
