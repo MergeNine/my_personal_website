@@ -16,7 +16,7 @@ function App() {
     {/*<div className="absolute top-0 bottom-0 left-1/2 bg-red-500 w-px"></div>*/
     }
     return (<HoverProvider>
-        <main className="font-moderustic text-lg bg-primary_light dark:bg-primary_dark">
+        <main className="font-moderustic text-lg bg-primary_light dark:bg-primary_dark  min-h-[100vh]">
             <Header/>
             <BodyTop/>
             <WaveDivider/>
