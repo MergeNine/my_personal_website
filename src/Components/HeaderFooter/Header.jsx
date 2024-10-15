@@ -10,7 +10,8 @@ const Header = () => {
     return (
         <header className=" bg-primary_light/70 dark:bg-primary_dark/70 sticky top-0 z-2 backdrop-blur-sm shadow-md">
             <div className="
-    max-w-4xl mx-auto justify-between items-center p-2 px-10 max-sm:mr-4 flex ">
+    max-w-[52rem]
+    mx-auto justify-between items-center p-2 px-10 max-sm:mr-4 flex ">
 
                 <button className=" focus:outline-none  relative text-nowrap  w-56 h-12 text-xl
   text-primary_text_light

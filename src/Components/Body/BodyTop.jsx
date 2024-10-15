@@ -16,7 +16,7 @@ const BodyTop = () => {
 
                     <div className="mx-12 flex flex-col ">
 
-                        <div className="sm:flex sm:items-start justify-between border max-w-[415px] ">
+                        <div className="sm:flex sm:items-start justify-between  max-w-[415px] ">
 
                             <div className="flex flex-col items-start justify-center bo">
 
