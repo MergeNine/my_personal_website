@@ -5,14 +5,11 @@ import Bio from "./Secondary/Bio";
 
 const BodyBottom = () => {
 
-    return (
-        <article className=" bg-primary_wave_light dark:bg-primary_wave_dark -mt-14 ">
-            <div className="max-w-5xl mx-auto
-            gap-6 px-52 lg:min-w-[768px] lg:max-w-[1024px]">
+    return (<article className="bg-primary_wave_light dark:bg-primary_wave_dark">
+        <div className="max-w-5xl mx-auto -mt-14 text-base sm:tracking-wide ">
                 <Bio/>
-            </div>
-        </article>
-    )
+        </div>
+    </article>)
 };
 
 export default BodyBottom;

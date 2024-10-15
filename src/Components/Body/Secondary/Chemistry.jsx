@@ -6,12 +6,12 @@ const Chemistry = () => {
         <div className="mb-4">
 
             <div className="inline-block mb-4">
-            <span className="border-b-4 text-xl font-semibold
-            border-light_accent dark:border-dark_accent ">Showcase</span>
+            <span className="border-b-4  font-semibold
+            border-light_accent dark:border-dark_accent text-lg sm:text-xl ">Showcase</span>
             </div>
 
-            <p>Before I programmed web apps, I made molecules.</p>
-            <p>Here's two I made while working at Bristol Myers Squibb.</p>
+            <p className="text-nowrap">Before I programmed web apps, I made molecules.</p>
+            <p className="text-nowrap">I made these while working at Bristol Myers Squibb.</p>
         </div>
 
         <div className="flex flex-col">

@@ -7,6 +7,7 @@ import MenuDropDown from "./Secondary/MenuDropDown";
 
 
 const Header = () => {
+
     return (
         <header className=" bg-primary_light/70 dark:bg-primary_dark/70 sticky top-0 z-2 backdrop-blur-sm shadow-md">
             <div className="
@@ -32,7 +33,7 @@ const Header = () => {
   </span>
                 </button>
                 <MenuDropDown/>
-                <ul className="flex gap-3 max-sm:hidden ">
+                <ul className="flex gap-3 max-sm:hidden  relative">
                     <li title="NotesSvg">
                         <a href="#" target="_blank" className="focus:outline-none">
                             <div className="navbar-icons pl-[2px]">
