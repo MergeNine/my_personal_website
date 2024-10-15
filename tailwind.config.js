@@ -21,6 +21,7 @@ module.exports = {
 
 
 
+
                 primary_text_light: "#282522", // #332d28
                 // primary_text_light: "#332d28", // #332d28
                 primary_light: "#F3F5F6", //#F3F5F6
