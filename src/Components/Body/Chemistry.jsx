@@ -1,5 +1,5 @@
-import PiperdineureaDark from "../../../Assets/Svg/SvgComponents/PiperdineureaDark";
-import DifluoroDark from "../../../Assets/Svg/SvgComponents/DifluoroDark";
+import PiperdineureaDark from "../../Assets/Svg/SvgComponents/PiperdineureaDark";
+import DifluoroDark from "../../Assets/Svg/SvgComponents/DifluoroDark";
 
 const Chemistry = () => {
     return (<section className="mt-4 font-normal">

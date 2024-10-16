@@ -1,6 +1,6 @@
-import Card from "./Secondary/Card.jsx";
+import Card from "./Card.jsx";
 import {createContext, useContext, useState} from "react";
-import HoverTopSvg from "./Secondary/HoverTopSvg.jsx";
+import HoverTopSvg from "./HoverTopSvg.jsx";
 import Footer from "../HeaderFooter/Footer.jsx";
 import {useFullHoverContext} from "../Util/HoverContext.jsx";
 import Header from "../HeaderFooter/Header.jsx";

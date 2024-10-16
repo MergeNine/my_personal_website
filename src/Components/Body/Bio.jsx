@@ -1,4 +1,4 @@
-import profilePic from "../../../Assets/Images/profilepic.jpg";
+import profilePic from "../../Assets/Images/profilepic.jpg";
 import Chemistry from "./Chemistry";
 
 const Bio = () => {

@@ -1,6 +1,6 @@
-import catImage from "../../../Assets/Images/cat.jpg";
-import HoverBottomSvg from "../../HeaderFooter/Secondary/HoverBottomSvg.jsx";
-import { useFullHoverContext } from "../../Util/HoverContext.jsx";
+import catImage from "../../Assets/Images/cat.jpg";
+import HoverBottomSvg from "../HeaderFooter/HoverBottomSvg.jsx";
+import { useFullHoverContext } from "../Util/HoverContext.jsx";
 
 const Card = ({ name, id }) => {
   const { hoveredId, setHoveredId } = useFullHoverContext();

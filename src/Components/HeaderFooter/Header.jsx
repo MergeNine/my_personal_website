@@ -1,12 +1,28 @@
-import DarkLightButton from "./Secondary/DarkLightButton.jsx";
+import DarkLightButton from "./DarkLightButton.jsx";
 import NotesSvg from "../../Assets/Svg/SvgComponents/NotesSvg";
 import GithubSvg from "../../Assets/Svg/SvgComponents/GithubSvg";
 import LinkedInSvg from "../../Assets/Svg/SvgComponents/LinkedinSvg";
-import MenuIconSvg from "../../Assets/Svg/SvgComponents/MenuIconSvg";
-import MenuDropDown from "./Secondary/MenuDropDown";
+import MenuDropDown from "./MenuDropDown";
+import getInitialTheme from "../Util/themeSetter";
+import {useEffect, useState} from "react";
 
 
 const Header = () => {
+
+    const [darkMode, setDarkMode] = useState(getInitialTheme());
+    const toggleDarkMode = () => {
+        setDarkMode((prev) => {
+            if (prev === "dark") {
+                return "light"
+            } else {
+                return "dark"
+            }
+        })
+    };
+    useEffect(() => {
+        document.body.className = darkMode
+    }, [darkMode])
+
 
     return (
         <header className=" bg-primary_light/70 dark:bg-primary_dark/70 sticky top-0 z-2 backdrop-blur-sm shadow-md">
@@ -29,10 +45,12 @@ const Header = () => {
     transform -skew-x-12 shadow-md rounded-md">
   </span>
                     <span className="relative">
-    Christopher Annunziato
+                        <a href="#" target="_blank">
+                               Christopher Annunziato
+                        </a>
   </span>
                 </button>
-                <MenuDropDown/>
+                <MenuDropDown toggleDarkMode={toggleDarkMode} />
                 <ul className="flex gap-3 max-sm:hidden  relative">
                     <li title="NotesSvg">
                         <a href="#" target="_blank" className="focus:outline-none">
@@ -58,7 +76,7 @@ const Header = () => {
                             </div>
                         </a>
                     </li>
-                    <DarkLightButton/>
+                    <DarkLightButton toggleDarkMode = {toggleDarkMode} darkMode = {darkMode}/>
                 </ul>
             </div>
         </header>

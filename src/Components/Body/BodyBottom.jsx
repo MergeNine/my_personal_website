@@ -1,7 +1,7 @@
 import {useFullHoverContext} from "../Util/HoverContext";
-import Card from "./Secondary/Card";
-import HoverTopSvg from "./Secondary/HoverTopSvg";
-import Bio from "./Secondary/Bio";
+import Card from "./Card";
+import HoverTopSvg from "./HoverTopSvg";
+import Bio from "./Bio";
 
 const BodyBottom = () => {
 

@@ -1,7 +1,7 @@
 import React from "react";
-import SpringSvg from "../../../Assets/Svg/SvgComponents/SpringSvg";
-import TailwindSvg from "../../../Assets/Svg/SvgComponents/TailwindSvg";
-import ReactSvg from "../../../Assets/Svg/SvgComponents/ReactSvg";
+import SpringSvg from "../../Assets/Svg/SvgComponents/SpringSvg";
+import TailwindSvg from "../../Assets/Svg/SvgComponents/TailwindSvg";
+import ReactSvg from "../../Assets/Svg/SvgComponents/ReactSvg";
 
 const HoverBottomSvg = ({id}) => {
     switch (id) {

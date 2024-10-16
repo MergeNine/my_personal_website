@@ -1,4 +1,4 @@
-import WaveDividerSvg from "../../../Assets/Svg/SvgComponents/WaveDividerSvg";
+import WaveDividerSvg from "../../Assets/Svg/SvgComponents/WaveDividerSvg";
 
 const WaveDivider = () => {
     return (<div className="-mb-1 h-[100px] overflow-hidden bg-gunmetal-50">
