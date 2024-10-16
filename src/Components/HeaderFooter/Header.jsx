@@ -25,7 +25,8 @@ const Header = () => {
 
 
     return (
-        <header className=" bg-primary_light/70 dark:bg-primary_dark/70 sticky top-0 z-2 backdrop-blur-sm shadow-md">
+        <header className=" bg-primary_light/70 dark:bg-primary_dark/70 sticky top-0 z-2
+        backdrop-blur-sm shadow-md backdrop-saturate-50">
             <div className="
     max-w-[52rem]
     mx-auto justify-between items-center p-2 px-10 max-sm:mr-4 flex ">
