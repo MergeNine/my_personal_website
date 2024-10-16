@@ -4,7 +4,7 @@
   "main": "index.jsx",
   "scripts": {
     "dev": "vite",
-    "build": "npx vvite build",
+    "build": "npx vite build",
     "preview": "vite preview",
     "tailwind": "npx tailwindcss -i src/styles.css -o ./dist/output.css --watch",
     "format": "node_modules/.bin/prettier --write ."
