@@ -6,7 +6,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "tailwind": "npx tailwindcss -i src/styles.css -o ./dist/output.css --watch",
+    "start": "vite preview",
     "format": "node_modules/.bin/prettier --write ."
   },
   "keywords": [],
