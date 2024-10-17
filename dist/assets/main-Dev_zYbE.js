@@ -46,7 +46,7 @@ Error generating stack: `+i.message+`
                     hover:bg-primary_dropdown_light dark:bg-primary_dropdown_dark rounded-sm\r
                     hover:bg-primary_dropdown_hover_light hover:dark:bg-primary_dropdown_hover_dark`,children:a.jsx("div",{children:"Notes"})})}),a.jsx("a",{href:"https://github.com/MergeNine",target:"_blank",children:a.jsx("li",{className:`flex justify-left  p-1.5  items-center h-9 w-30\r
                     hover:bg-primary_dropdown_light dark:bg-primary_dropdown_dark rounded-sm\r
-                    hover:bg-primary_dropdown_hover_light hover:dark:bg-primary_dropdown_hover_dark`,children:a.jsx("div",{children:"Github"})})}),a.jsx("a",{href:"https://www.linkedin.com/in/cmannunziato/",target:"_blank",children:a.jsx("li",{className:`flex justify-left   p-1.5 items-center h-9 w-30\r
+                    hover:bg-primary_dropdown_hover_light hover:dark:bg-primary_dropdown_hover_dark`,children:a.jsx("div",{children:"Github"})})}),a.jsx("a",{href:"https://www.linkedin.com/in/cmannunziato/",target:"_blank",children:a.jsx("li",{className:`flex justify-left  p-1.5 items-center h-9 w-30\r
                     hover:bg-primary_dropdown_light dark:bg-primary_dropdown_dark rounded-sm\r
                     hover:bg-primary_dropdown_hover_light hover:dark:bg-primary_dropdown_hover_dark`,children:a.jsx("div",{children:"Linkedin"})})}),a.jsx("li",{onClick:e,className:`flex justify-left p-1.5   items-center h-9 w-30\r
                     hover:bg-primary_dropdown_light dark:bg-primary_dropdown_dark rounded-sm\r
