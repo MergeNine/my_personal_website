@@ -1,14 +1,16 @@
-const tailwindcss = require('tailwindcss');
-const path = require('path');
-const { defineConfig } = require('vite');
-const react = require('@vitejs/plugin-react');
+import path from 'path';
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import tailwindcss from 'tailwindcss';
+import autoprefixer from 'autoprefixer';
 
-module.exports = defineConfig({
+export default defineConfig({
     plugins: [react()],
     css: {
         postcss: {
             plugins: [
-                tailwindcss,
+                tailwindcss(),
+                autoprefixer(),
             ],
         },
     },
