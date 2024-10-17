@@ -1,12 +1,28 @@
-// vite.config.js
-import {defineConfig} from 'vite'
-import react from '@vitejs/plugin-react'
-import svgLoader from "vite-svg-loader";
+const tailwindcss = require('tailwindcss');
+const path = require('path');
+const { defineConfig } = require('vite');
+const react = require('@vitejs/plugin-react');
 
-export default defineConfig({
-                                plugins: [react(), svgLoader({defaultImport: 'raw'})], server: {
-        port: 3055, open: true,
-    }, build: {
+module.exports = defineConfig({
+    plugins: [react()],
+    css: {
+        postcss: {
+            plugins: [
+                tailwindcss,
+            ],
+        },
+    },
+    server: {
+        port: 3055,
+        open: true,
+    },
+    build: {
         outDir: './dist',
-    }, publicDir: 'public',
-                            })
+        rollupOptions: {
+            input: {
+                main: path.resolve(__dirname, 'index.html'),
+            },
+        },
+    },
+    root: ".",
+});

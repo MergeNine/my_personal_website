@@ -51,7 +51,7 @@ const MenuDropDown = ({toggleDarkMode}) => {
                         </li>
                     </a>
                     <a href="https://www.linkedin.com/in/cmannunziato/" target="_blank">
-                        <li className="flex justify-left   p-1.5 items-center h-9 w-30
+                        <li className="flex justify-left  p-1.5 items-center h-9 w-30
                     hover:bg-primary_dropdown_light dark:bg-primary_dropdown_dark rounded-sm
                     hover:bg-primary_dropdown_hover_light hover:dark:bg-primary_dropdown_hover_dark">
                             <div>Linkedin</div>
