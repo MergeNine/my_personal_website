@@ -1,28 +1,13 @@
-import path from 'path';
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
+// https://vitejs.dev/config/
 export default defineConfig({
     plugins: [react()],
-    css: {
-        postcss: {
-            plugins: [
-                require('tailwindcss'),
-                require('autoprefixer'),
-            ],
-        },
-    },
     server: {
-        port: 3055,
-        open: true,
+        port: 3000
     },
     build: {
-        outDir: './dist',
-        rollupOptions: {
-            input: {
-                main: path.resolve(__dirname, 'index.html'),
-            },
-        },
-    },
-    root: ".",
-});
+        outDir: 'dist'
+    }
+})
