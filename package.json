@@ -4,7 +4,7 @@
   "main": "main.jsx",
   "scripts": {
     "dev": "vite",
-    "vite build": "vite build",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "keywords": [],
