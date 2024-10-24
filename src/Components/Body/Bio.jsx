@@ -16,31 +16,31 @@ const Bio = () => {
         text-primary_text_light dark:text-primary_text_dark">
                     <ul>
                         <li className="flex items-start mb-1">
-                            <div className="font-semibold w-16">1989</div>
+                            <div className="font-semibold w-[4.25rem]">1989</div>
                             <div>Born in Media, PA</div>
                         </li>
                         <li className="flex items-start mb-1">
-                            <div className="font-semibold w-16">2012</div>
+                            <div className="font-semibold w-[4.25rem]">2012</div>
                             <div>B.S.Chemistry at Widener</div>
                         </li>
                         <li className="flex items-start mb-1">
-                            <div className="font-semibold w-16 ">2017</div>
+                            <div className="font-semibold w-[4.25rem] ">2017</div>
                             <div>M.S. in Chemistry at UPenn</div>
                         </li>
                         <li className="flex items-start mb-1">
-                            <div className="font-semibold w-16">2019</div>
+                            <div className="font-semibold w-[4.25rem]">2019</div>
                             <div>Chemist in Drug-Discovery</div>
                         </li>
                         <li className="flex items-start mb-1">
-                            <div className="font-semibold w-16">2022</div>
+                            <div className="font-semibold w-[4.25rem]">2022</div>
                             <div>Android Development</div>
                         </li>
                         <li className="flex items-start mb-1">
-                            <div className="font-semibold w-16">2024</div>
+                            <div className="font-semibold w-[4.25rem]">2024</div>
                             <div>Web Development</div>
                         </li>
                         <li className="flex items-start mb-1">
-                            <div className="font-semibold w-16">Pres.</div>
+                            <div className="font-semibold w-[4.25rem]">Pres.</div>
                             <div className="">React · Tailwind · Java · Spring</div>
                         </li>
                     </ul>
