@@ -8,7 +8,7 @@
 /*Layout resizing causes white background to appear on the right edge,
 this is jarring on dark backgrounds*/
 body {
-  background-color: rgb(31, 31, 31);
+  background-color: rgb(32, 32, 33);
 }
 
 
