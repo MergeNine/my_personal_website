@@ -2,7 +2,7 @@ import PiperdineureaDark from "../../Assets/Svg/SvgComponents/PiperdineureaDark"
 import DifluoroDark from "../../Assets/Svg/SvgComponents/DifluoroDark";
 
 const Chemistry = () => {
-    return (<section className="mt-4 font-normal max-w-[420px] border sm:max-w-[435px]">
+    return (<section className="mt-4 font-normal max-w-[420px]  sm:max-w-[435px]">
         <div className="mb-4 overflow-hidden">
 
             <div className="inline-block mb-4">
