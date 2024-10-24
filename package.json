@@ -1,6 +1,7 @@
 {
   "name": "my_personal_website",
   "version": "1.0.0",
+  "type": "module",
   "main": "main.jsx",
   "scripts": {
     "dev": "vite",
