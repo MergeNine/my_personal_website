@@ -10,9 +10,8 @@ this is jarring on dark backgrounds*/
 body {
   background-color: rgb(31, 31, 31);
 }
-html {
-    background-color: red;
-}
+
+
 @layer components {
 
     .dark-light-fill {
