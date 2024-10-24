@@ -41,7 +41,7 @@ const Bio = () => {
                         </li>
                         <li className="flex items-start mb-1">
                             <div className="font-semibold w-20 mr-2">Present</div>
-                            <div className="">React · Tailwind · Java </div>
+                            <div className="text-sm">React · Tailwind · Java · Spring</div>
                         </li>
                     </ul>
                 </p>
