@@ -21,11 +21,11 @@ const Bio = () => {
                         </li>
                         <li className="flex items-start mb-1">
                             <div className="font-semibold w-20 mr-2">2012</div>
-                            <div>Bachelors in Chemistry at Widener</div>
+                            <div>B.S.Chemistry at Widener</div>
                         </li>
                         <li className="flex items-start mb-1">
                             <div className="font-semibold w-20 mr-2">2017</div>
-                            <div>Masters in Chemistry at UPenn</div>
+                            <div>M.S. in Chemistry at UPenn</div>
                         </li>
                         <li className="flex items-start mb-1">
                             <div className="font-semibold w-20 mr-2">2019</div>
@@ -41,7 +41,7 @@ const Bio = () => {
                         </li>
                         <li className="flex items-start mb-1">
                             <div className="font-semibold w-20 mr-2">Present</div>
-                            <div>React / Tailwind / Java / Spring</div>
+                            <div className="text-nowrap">React / Tailwind / Java / Spring</div>
                         </li>
                     </ul>
                 </p>
