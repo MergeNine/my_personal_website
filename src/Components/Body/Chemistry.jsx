@@ -18,7 +18,7 @@ const Chemistry = () => {
                 <p className="flex gap-2 py-2"><span className="font-semibold">Macrocycle:</span> Patent:
                     <a href="https://patents.google.com/patent/US20230203039A1/en?oq=Patent+No.+US20230203039A1"
                        target="_blank">
-                        <span className="underline underline-offset-2">US20230203039A1</span>
+                        <span className="underline underline-offset-2 text-sm">US20230203039A1</span>
                     </a>
                 </p>
                 <DifluoroDark className="h-44 w-auto pl-4
@@ -28,7 +28,7 @@ const Chemistry = () => {
             <div className="">
                 <p className="flex gap-2 py-2"><span className="font-semibold">Piperdine:</span> Patent:
                     <a href="https://patents.google.com/patent/WO2020033488A1/en" target="_blank">
-                        <span className="underline underline-offset-2">WO2020033488A1</span>
+                        <span className="underline underline-offset-2 text-sm">WO2020033488A1</span>
                     </a>
                 </p>
                 <PiperdineureaDark className="h-44 w-auto pl-4
