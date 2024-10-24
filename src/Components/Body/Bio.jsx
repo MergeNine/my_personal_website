@@ -12,7 +12,7 @@ const Bio = () => {
             border-light_accent dark:border-dark_accent ">Bio</span>
                 </div>
 
-                <p className="gap-2  font-normal  max-w-[400px] sm:max-w-[435px] border
+                <p className="gap-2  font-normal  max-w-[400px] sm:max-w-[435px]
         text-primary_text_light dark:text-primary_text_dark">
                     <ul>
                         <li className="flex items-start mb-1">
