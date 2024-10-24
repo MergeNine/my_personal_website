@@ -12,7 +12,7 @@ const BodyTop = () => {
             <div
                 className="mx-auto sm:px-8 sm:max-w-2xl ">
 
-                <div className="mx-10 flex flex-col ">
+                <div className="mx-12 flex flex-col ">
                     <div className="sm:flex sm:items-start justify-between  max-w-[415px] ">
                         <div className="flex flex-col items-start justify-center bo">
                             <h2 className="text-[1.75rem] sm:text-[2.1rem] text-black dark:text-white text-nowrap">

@@ -29,7 +29,7 @@ const Header = () => {
         backdrop-blur-sm shadow-md backdrop-saturate-50">
             <div className="
     max-w-[52rem]
-    mx-auto justify-between items-center p-2 px-8 max-sm:mr-4 flex ">
+    mx-auto justify-between items-center p-2 px-10 max-sm:mr-4 flex ">
 
                 <button className=" focus:outline-none  relative text-nowrap  w-56 h-12 text-xl
   text-primary_text_light
