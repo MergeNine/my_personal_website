@@ -8,11 +8,11 @@ import profilePic from "../../Assets/Images/profilepic.jpg";
 
 const BodyTop = () => {
     return (<article className=" bg-primary_light dark:bg-primary_dark">
-        <div className="  max-w-5xl  mx-auto bg-primary_light pt-12 dark:bg-primary_dark  ">
+        <div className="max-w-5xl  mx-auto bg-primary_light pt-12 dark:bg-primary_dark  ">
             <div
                 className="mx-auto sm:px-8 sm:max-w-2xl ">
 
-                <div className="mx-12 flex flex-col ">
+                <div className="mx-10 flex flex-col ">
                     <div className="sm:flex sm:items-start justify-between  max-w-[415px] ">
                         <div className="flex flex-col items-start justify-center bo">
                             <h2 className="text-[1.75rem] sm:text-[2.1rem] text-black dark:text-white text-nowrap">
@@ -38,7 +38,7 @@ const BodyTop = () => {
                                 <span
                                     className="border-b-4 in border-light_accent dark:border-dark_accent text-lg sm:text-xl">What I'm Up To</span>
                         </div>
-                        <p className="flex flex-col gap-2  text-base  sm:max-w-[435px] text-justify tracking-tighter sm:tracking-wide
+                        <p className="flex flex-col gap-2  text-base sm:max-w-[435px] text-justify tracking-tighter sm:tracking-wide
                             font-normal text-primary_text_light dark:text-primary_text_dark ">
                             <span>I'm working on an idea im very excited about bringing to life. A fractal-algorithm path visualizer.</span>
                             <span>As a former chemist, I'm interested in nature and its imperfections, layering ideas and experimenting with web technology.</span>
