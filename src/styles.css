@@ -10,9 +10,9 @@ this is jarring on dark backgrounds*/
 /*body {*/
 /*  background-color: rgb(32, 32, 33);*/
 /*}*/
-/*html, body {*/
-/*    background-color: rgb(143, 18, 143);*/
-/*}*/
+html, body {
+    background-color: rgb(78, 80, 84);
+}
 
 @layer components {
 
