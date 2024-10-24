@@ -10,7 +10,7 @@ const Chemistry = () => {
             border-light_accent dark:border-dark_accent text-lg sm:text-xl ">Showcase</span>
             </div>
 
-            <p >Before I programmed web apps, I made molecules such as these, while working at Bristol Myers Squibb.</p>
+            <p>Before I programmed web apps, I made molecules such as these, while working at Bristol Myers Squibb.</p>
         </div>
 
         <div className="flex flex-col">
