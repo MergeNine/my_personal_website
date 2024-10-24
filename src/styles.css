@@ -8,9 +8,11 @@
 /*Layout resizing causes white background to appear on the right edge,
 this is jarring on dark backgrounds*/
 body {
-  background-color: rgba(0, 0, 0, 0.55);
+  background-color: rgb(31, 31, 31);
 }
-
+html {
+    background-color: red;
+}
 @layer components {
 
     .dark-light-fill {
