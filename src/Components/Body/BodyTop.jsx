@@ -38,7 +38,7 @@ const BodyTop = () => {
                                 <span
                                     className="border-b-4 in border-light_accent dark:border-dark_accent text-lg sm:text-xl">What I'm Up To</span>
                         </div>
-                        <p className="flex flex-col gap-2  text-base max-w-[420px] sm:max-w-[435px] text-justify tracking-tighter sm:tracking-wide
+                        <p className="flex flex-col gap-2  text-base  sm:max-w-[435px] text-justify tracking-tighter sm:tracking-wide
                             font-normal text-primary_text_light dark:text-primary_text_dark ">
                             <span>I'm working on an idea im very excited about bringing to life. A fractal-algorithm path visualizer.</span>
                             <span>As a former chemist, I'm interested in nature and its imperfections, layering ideas and experimenting with web technology.</span>
