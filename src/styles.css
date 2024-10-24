@@ -8,7 +8,7 @@
 /*Layout resizing causes white background to appear on the right edge,
 this is jarring on dark backgrounds*/
 body {
-  background-color: #c72323;
+  background-color: black;
 }
 
 @layer components {
